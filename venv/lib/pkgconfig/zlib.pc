@@ -1,0 +1,13 @@
+prefix=/Users/vishalchandru/MacBook/CustomerSegmentation/venv
+exec_prefix=/Users/vishalchandru/MacBook/CustomerSegmentation/venv
+libdir=/Users/vishalchandru/MacBook/CustomerSegmentation/venv/lib
+sharedlibdir=/Users/vishalchandru/MacBook/CustomerSegmentation/venv/lib
+includedir=/Users/vishalchandru/MacBook/CustomerSegmentation/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
